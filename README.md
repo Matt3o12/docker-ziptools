@@ -4,7 +4,7 @@ ZIPTools for docker is a docker image that has zip as well as unzip installed. I
 ## Usage ##
 ZIP a directory:
     
-    docker run --rm -v /dir_to_zip:/tmp/zip ziptools zip -r /tmp/zip/archive.zip /tmp/zip
+    docker run --rm -v /dir_to_zip:/tmp/zip matt3o12/ziptools zip -r /tmp/zip/archive.zip /tmp/zip
 
 This will zip the given directory and save the zip file as archive.zip to that directory.
 
